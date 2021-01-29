@@ -17,9 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.alZuman.expenseTracker",
+      "googleServicesFile": "./GoogleService-info.plist",
+      "supportsTablet": true,
+      "buildNumber": "0.0.4",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.894025729971-9jc4h5vd8u698uk0msm38i3hnvtpt4nb"
+        }
+      }
     },
     "android": {
+      "package": "com.alZuman.expenseTracker",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
